@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment Planner</title>
+  <link rel="stylesheet" href="planner.css">
+</head>
+<body>
+  <h1>Assignment Planner</h1>
+  <p>Keep track of your school or college assignments in one place.</p>
+  <p>Enter an assignment name and due date, then click the button to add it.</p>
+
+  <form id="assignment-form">
+    <input id="assignment-name" type="text"
+           placeholder="Assignment name" required>
+    <input id="due-date" type="date" required>
+    <button type="submit">Add Assignment</button>
+  </form>
+
+  <h2>My Assignments</h2>
+  <ul id="assignment-list"></ul>
+
+  <script src="planner.js"></script>
+</body>
+</html>

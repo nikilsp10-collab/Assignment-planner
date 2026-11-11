@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+}
+
+h1 {
+  color: blue;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  color: white;
+  background: blue;
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 12px;
+}
